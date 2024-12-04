@@ -1,0 +1,1 @@
+# trading-platform-whawryluk
