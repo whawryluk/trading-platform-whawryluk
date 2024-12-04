@@ -1,0 +1,58 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+venv/
+
+# Docker
+**/Dockerfile*
+**/docker-compose*.yml
+.dockerignore
+**/compose-config.yml
+**/volumes/
+logs/
+
+# FastAPI
+instance/
+*.db
+*.sqlite3
+
+# Pytest and Test Reports
+*.pytest_cache/
+htmlcov/
+.coverage
+*.xml
+
+# General Python
+*.egg-info/
+*.eggs/
+build/
+dist/
+*.log
+*.bak
+*.swp
+*.DS_Store
+
+# WebSocket and API Testing
+*.sock
+websocket-test-results/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System Files
+*.env.local
+*.env.example
+*.envrc
+*.test_settings
+Thumbs.db
+.DS_Store
+
+# Docker Compose
+compose_cache/
